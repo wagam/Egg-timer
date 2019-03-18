@@ -84,9 +84,9 @@
 		495F472C223BD54700357F27 = {
 			isa = PBXGroup;
 			children = (
-				495F4737223BD54700357F27 /* Egg Timer */,
-				495F474A223BD54800357F27 /* Egg TimerTests */,
-				495F4755223BD54800357F27 /* Egg TimerUITests */,
+				495F4737223BD54700357F27 /* egg-timer */,
+				495F474A223BD54800357F27 /* egg-timer-tests */,
+				495F4755223BD54800357F27 /* egg-timerUITests */,
 				495F4736223BD54700357F27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		495F4737223BD54700357F27 /* Egg Timer */ = {
+		495F4737223BD54700357F27 /* egg-timer */ = {
 			isa = PBXGroup;
 			children = (
 				49A6A9C4223FDE670090AFBC /* ding.mp3 */,
@@ -113,25 +113,25 @@
 				495F473C223BD54800357F27 /* Assets.xcassets */,
 				495F473E223BD54800357F27 /* Main.storyboard */,
 			);
-			path = "Egg Timer";
+			path = "egg-timer";
 			sourceTree = "<group>";
 		};
-		495F474A223BD54800357F27 /* Egg TimerTests */ = {
+		495F474A223BD54800357F27 /* egg-timer-tests */ = {
 			isa = PBXGroup;
 			children = (
 				495F474B223BD54800357F27 /* Egg_TimerTests.swift */,
 				495F474D223BD54800357F27 /* Info.plist */,
 			);
-			path = "Egg TimerTests";
+			path = "egg-timer-tests";
 			sourceTree = "<group>";
 		};
-		495F4755223BD54800357F27 /* Egg TimerUITests */ = {
+		495F4755223BD54800357F27 /* egg-timerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				495F4756223BD54800357F27 /* Egg_TimerUITests.swift */,
 				495F4758223BD54800357F27 /* Info.plist */,
 			);
-			path = "Egg TimerUITests";
+			path = "egg-timerUITests";
 			sourceTree = "<group>";
 		};
 		49A6A9BD223FD30E0090AFBC /* View Controllers */ = {
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 495F4730223BD54700357F27 /* Build configuration list for PBXProject "Egg Timer" */;
+			buildConfigurationList = 495F4730223BD54700357F27 /* Build configuration list for PBXProject "egg-timer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -453,15 +453,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Egg Timer/Egg_Timer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "egg-timer/egg-timer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Egg Timer/Info.plist";
+				INFOPLIST_FILE = "egg-timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sogi.Egg-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = "sogi.egg-timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -471,15 +471,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Egg Timer/Egg_Timer.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "egg-timer/egg-timer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Egg Timer/Info.plist";
+				INFOPLIST_FILE = "egg-timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sogi.Egg-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = "sogi.egg-timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -566,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		495F4730223BD54700357F27 /* Build configuration list for PBXProject "Egg Timer" */ = {
+		495F4730223BD54700357F27 /* Build configuration list for PBXProject "egg-timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				495F4759223BD54800357F27 /* Debug */,
