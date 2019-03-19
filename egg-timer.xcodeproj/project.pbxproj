@@ -43,7 +43,7 @@
 		495F473C223BD54800357F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495F473F223BD54800357F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		495F4741223BD54800357F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		495F4742223BD54800357F27 /* Egg_Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Egg_Timer.entitlements; sourceTree = "<group>"; };
+		495F4742223BD54800357F27 /* egg-timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "egg-timer.entitlements"; sourceTree = "<group>"; };
 		495F4747223BD54800357F27 /* Egg TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495F474B223BD54800357F27 /* Egg_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerTests.swift; sourceTree = "<group>"; };
 		495F474D223BD54800357F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				49A6A9C4223FDE670090AFBC /* ding.mp3 */,
-				495F4742223BD54800357F27 /* Egg_Timer.entitlements */,
+				495F4742223BD54800357F27 /* egg-timer.entitlements */,
 				495F4741223BD54800357F27 /* Info.plist */,
 				49A6A9BE223FD3390090AFBC /* Model */,
 				495F4738223BD54700357F27 /* AppDelegate.swift */,
